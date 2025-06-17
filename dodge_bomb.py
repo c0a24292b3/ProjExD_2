@@ -81,6 +81,7 @@ def main():
 
         if kk_rct.colliderect(bb_rct):
             gameover(screen)
+            print("ゲームオーバー")
             return
 
         screen.blit(bg_img, [0, 0])
